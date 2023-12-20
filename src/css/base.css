@@ -1,5 +1,9 @@
 .body {
-    background-color: #0E1823;
+    font-family: 'Inter', sans-serif;
+    color: #1B414B;
+    font-size: 18px;
+    line-height: 1;
+    background-color: #FBFBFB;
 }
 
 .container {
