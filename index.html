@@ -17,7 +17,7 @@
       referrerpolicy="no-referrer"
     />
     
-    <link rel="stylesheet" href="/project-FutureDevelopers01/assets/index-ba5c5438.css">
+    <link rel="stylesheet" href="/project-FutureDevelopers01/assets/index-7c5de45f.css">
   </head>
   <body>
     <!-- Радченко Ігор -->
@@ -43,7 +43,57 @@
 </section>
       <!-- Тетяна -->
       <section class="rent-yacht">
-
+    <div class="container container-rent-yacht">
+        <div class="container-rent-yacht-title-form">
+            <h2 class="rent-yacht-title">Rent a yacht now</h2>
+            <form class="rent-yacht-form">
+                <div class="rent-yacht-form-wrapper">
+                    <label>
+                        <input class="rent-yacht-form-input" type="text" pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+"
+                            title="Alexander" name="user name" placeholder="Full Name" required>
+    
+                    </label>
+                </div>
+                <div class="rent-yacht-form-wrapper">
+                    <label>
+                        <input class="rent-yacht-form-input" type="email" name="email" placeholder="Emai" required>
+                    </label>
+                </div>
+                <div class="rent-yacht-form-wrapper">
+                    <label>
+                        <input class="rent-yacht-form-input" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                            title="xxx-xxx-xx-xx" name="user tel" placeholder="Phone numbe">
+                    </label>
+                </div>
+                <div class="rent-yacht-form-wrapper-comment">
+                    <label></label>
+                    <textarea class="rent-yacht-form-comment" name="full name" placeholder="Comment"></textarea>
+                </div>
+                <button class="rent-yacht-form-button" type="submit">Send</button>
+            </form>
+        </div>
+        <div class="rent-yacht-imeges-wrapper">
+            <picture>
+                <source srcset="
+                        ./imeges/rent-a-yacht@1x-desktop2.jpg 1x,
+                        ./imeges/rent-a-yacht@2x-desktop2.jpg 2x
+                    " media="(min-width: 1440px)" />
+                <source srcset="
+                        ./imeges/rent-a-yacht@1x-desktop.jpg 1x,
+                        ./imeges/rent-a-yacht@2x-desktop.jpg 2x
+                        " media="(min-width: 1280px)" />
+                <source srcset="
+                        ./imeges/rent-a-yacht@1x-tablet.jpg 1x,
+                        ./imeges/rent-a-yacht@2x-tablet.jpg 2x
+                         " media="(min-width: 768px)" />
+                <source srcset="
+                        ./imeges/rent-a-yacht@1x-mobile.jpg 1x,
+                        ./imeges/rent-a-yacht@2x-mobile.jpg 2x
+                        " media="(max-width: 767px)" />
+                <img class="rent-yacht-imeges" src="./imeges/rent-a-yacht@2x-mobile.jpg" alt="Yacht on the water" />
+            </picture>
+        </div>
+    </div>
 </section>
       <!-- Іванка -->
       <section class="reviews">
