@@ -1,10 +1,9 @@
-.container-rent-yacht {
-    padding-top: 40px;
-}
+
 
 @media screen and (min-width: 768px) {
-    .container-rent-yacht {
+    .section {
         padding-top: 75px;
+        padding-bottom: 75px;
     }
 }
 
@@ -50,20 +49,8 @@
 
 .rent-yacht {
     background-color: #0E1823;
-    padding-bottom: 40px;
 }
 
-@media screen and (min-width: 768px) {
-    .srent-yacht {
-        padding-bottom: 50px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .rent-yacht {
-        padding-bottom: 75px;
-    }
-}
 
 .rent-yacht-title {
     color: #FBFBFB;
