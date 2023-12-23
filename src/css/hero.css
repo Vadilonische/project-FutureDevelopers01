@@ -1,0 +1,245 @@
+/* ================= MOBILE HERO STYLES ================= */
+.hero {
+  padding-top: 260px;
+  padding-bottom: 302px;
+  background: linear-gradient(
+      359deg,
+      rgba(17, 19, 31, 0.8) 42.62%,
+      rgba(17, 19, 31, 0.31) 84.12%,
+      rgba(17, 19, 31, 0) 99.94%
+    ),
+    url(../img/hero/hero-yacht.jpg),
+    lightgray -85px -470.796px / 113.281% 226.727% no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 375px;
+}
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  .hero {
+    background: linear-gradient(
+        359deg,
+        rgba(17, 19, 31, 0.8) 42.62%,
+        rgba(17, 19, 31, 0.31) 84.12%,
+        rgba(17, 19, 31, 0) 99.94%
+      ),
+      url(../img/hero/hero-yacht@2x.jpg),
+      lightgray -85px -470.796px / 113.281% 226.727% no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+.hero-title {
+  text-align: center;
+  color: #fbfbfb;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1; /* 100% */
+  letter-spacing: -0.02em;
+  max-width: 335px;
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-title-text {
+  text-align: center;
+  color: rgba(251, 251, 251, 0.7);
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.17; /* 116.667% */
+  margin-bottom: 38px;
+  max-width: 335px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fbfbfb;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29; /* 128.571% */
+  letter-spacing: -0.02em;
+  border-radius: 15px;
+  background: #1b414b;
+  padding: 14px 32px;
+  width: 141px;
+  height: 46px;
+  border: 1px solid rgba(251, 251, 251, 0.35);
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #fbfbfb;
+  color: #1b414b;
+}
+/* ================= /MOBILE HERO STYLES ================= */
+
+/* ================= TABLET HERO STYLES ================= */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .hero {
+    padding-top: 280px;
+    padding-bottom: 282px;
+    background: linear-gradient(
+        359deg,
+        rgba(17, 19, 31, 0.8) 42.62%,
+        rgba(17, 19, 31, 0.31) 84.12%,
+        rgba(17, 19, 31, 0) 99.94%
+      ),
+      url(../img/hero/hero-yacht-tab.jpg),
+      lightgray -85px -470.796px / 113.281% 226.727% no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 768px;
+  }
+  @media screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .hero {
+      background: linear-gradient(
+          359deg,
+          rgba(17, 19, 31, 0.8) 42.62%,
+          rgba(17, 19, 31, 0.31) 84.12%,
+          rgba(17, 19, 31, 0) 99.94%
+        ),
+        url(../img/hero/hero-yacht-tab@2x.jpg),
+        lightgray -85px -470.796px / 113.281% 226.727% no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+  .hero-title {
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 1; /* 100% */
+    letter-spacing: -0.02em;
+    max-width: 704px;
+  }
+  .hero-title-text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4; /* 22.4px */
+    margin-bottom: 48px;
+    max-width: 597px;
+  }
+  .hero-btn {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1; /* 19.8px */
+    letter-spacing: -0.02em;
+    padding: 16px 40px;
+    width: 179px;
+    height: 52px;
+  }
+}
+/* ================= /TABLET HERO STYLES ================= */
+
+/* ================= 1280 DESKTOP HERO STYLES ================= */
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+  .hero {
+    padding-top: 235px;
+    padding-bottom: 215px;
+    background: linear-gradient(
+        359deg,
+        rgba(17, 19, 31, 0.8) 42.62%,
+        rgba(17, 19, 31, 0.31) 84.12%,
+        rgba(17, 19, 31, 0) 99.94%
+      ),
+      url(../img/hero/hero-yacht-desk1280.jpg),
+      lightgray -85px -470.796px / 113.281% 226.727% no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+  @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+    screen and (min-resolution: 2dppx) and (min-width: 1280px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+    .hero {
+      background: linear-gradient(
+          359deg,
+          rgba(17, 19, 31, 0.8) 42.62%,
+          rgba(17, 19, 31, 0.31) 84.12%,
+          rgba(17, 19, 31, 0) 99.94%
+        ),
+        url(../img/hero/hero-yacht-desk1280@2x.jpg),
+        lightgray -85px -470.796px / 113.281% 226.727% no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+  .hero-title {
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 1; /* 100% */
+    letter-spacing: -0.02em;
+    max-width: 1001px;
+  }
+  .hero-title-text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4; /* 22.4px */
+  }
+  .hero-btn {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1; /* 19.8px */
+    letter-spacing: -0.02em;
+  }
+}
+/* ================= /1280 DESKTOP HERO STYLES ================= */
+
+/* ================= 1440 DESKTOP HERO STYLES ================= */
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+  .hero {
+    padding-top: 235px;
+    padding-bottom: 215px;
+    background: linear-gradient(
+        359deg,
+        rgba(17, 19, 31, 0.8) 42.62%,
+        rgba(17, 19, 31, 0.31) 84.12%,
+        rgba(17, 19, 31, 0) 99.94%
+      ),
+      url(../img/hero/hero-yacht-desk1440.jpg),
+      lightgray -85px -470.796px / 113.281% 226.727% no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+  @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
+    screen and (min-resolution: 2dppx) and (min-width: 1440px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+    .hero {
+      background: linear-gradient(
+          359deg,
+          rgba(17, 19, 31, 0.8) 42.62%,
+          rgba(17, 19, 31, 0.31) 84.12%,
+          rgba(17, 19, 31, 0) 99.94%
+        ),
+        url(../img/hero/hero-yacht-desk1440@2x.jpg),
+        lightgray -85px -470.796px / 113.281% 226.727% no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+}
+/* ================= 1440 DESKTOP HERO STYLES ================= */
