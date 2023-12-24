@@ -141,6 +141,9 @@
     line-height: 1.16;
     display: block;
 }
+.rent-yacht-form-comment:focus {
+border-color: #FBFBFB;
+}
 
 .rent-yacht-form-comment::placeholder {
     color: rgba(251, 251, 251, 0.40);
