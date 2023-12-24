@@ -7,12 +7,13 @@
     background: #1B414B;
     max-width: 355px;
     height: 412px;
-    /* padding-top: 40px;
-    padding-bottom: 20px; */
-    padding: 40px 30px 20px 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    /* padding: 40px 30px 20px 30px; */
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .footer-header {
@@ -22,8 +23,8 @@
     justify-content: space-between;
     align-items: center;
     gap: 80px;
-    max-width: 295px;
-    /* margin: 0 auto; */
+    width: 295px;
+    margin: 0 auto;
 }
 
 .footer-navigation {
@@ -89,12 +90,12 @@
 
 .footer-social-link {
     fill: #FBFBFB;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-link:focus,
 .footer-social-link:hover {
-    fill: #FBFBFB 80%;
+    opacity: 80%;
 }
 
 .footer-main-text {
@@ -133,6 +134,15 @@
     letter-spacing: 0.03em;
 }
 
+.privacy-link {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.privacy-link:hover,
+.privacy-link:focus {
+    color: #FBFBFB;
+}
+
 /* @media screen and (max-width: 374px) {
     .footer-conteiner {
         max-width: 355px;
@@ -146,12 +156,12 @@
 @media screen and (min-width: 768px) {
     .footer-conteiner {
         max-width: 768px;
-        margin: 0 16px 0 16px;
+        margin: 0 auto;
         height: 418px;
-        /* padding-top: 40px;
-        padding-left: 48px;
+        padding-top: 40px;
+        /* padding-left: 48px;
         padding-right: 48px; */
-        padding: 50px 48px 20px 48px;
+        /* padding: 50px 48px 20px 48px; */
     }
 
     .footer-header {
@@ -161,7 +171,7 @@
         justify-content: space-between;
         gap: 91px;
         width: 640px;
-        margin: 0;
+        margin: 0 auto;
     }
 
     .footer-navigation {
@@ -177,6 +187,8 @@
 
     .logo-footer {
         font-size: 20px;
+        width: 74px;
+        text-align: center;
     }
 
     .footer-menu-list {
@@ -212,8 +224,8 @@
 @media screen and (min-width: 1280px) {
     .footer-conteiner {
         max-width: 1280px;
-        padding: 50px 75px 20px 75px;
-        margin: 0 25px 0 25px;
+        padding-top: 50px;
+        /* padding: 50px 75px 20px 75px; */
         
     }
 
