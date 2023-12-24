@@ -1,0 +1,182 @@
+.container {
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---------MOBILE REVIEWS----------- */
+.reviews-title {
+  width: 335px;
+  color: #fbfbfb;
+  text-align: center;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+}
+.reviews-text {
+  width: 335px;
+  color: #fbfbfb;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  opacity: 0.4;
+  margin-bottom: 40px;
+}
+.reviews-list-item-John,
+.reviews-list-item-Victoria,
+.reviews-list-item-Ihor {
+  display: flex;
+  background-color: #fbfbfb;
+  width: 335px;
+  height: 282px;
+  padding: 32px 8px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 24px;
+  gap: 24px;
+}
+.reviews-list-item-Victoria {
+  display: none;
+}
+.reviews-list-item-Ihor {
+  display: none;
+}
+
+.person-image {
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 56px;
+  height: 56px;
+}
+.person-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.reviews-general {
+  display: flex;
+  width: 303px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.reviews-name {
+  color: #040306;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+.reviews-info {
+  color: rgba(4, 3, 6, 0.4);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  height: 110px;
+}
+/* ---------MOBILE REVIEWS----------- */
+/* ---------TABLET REVIEWS------------ */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .reviews-title {
+    width: 704px;
+    font-size: 48px;
+  }
+  .reviews-text {
+    width: 571px;
+    font-size: 14px;
+    line-height: 1.28;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75px;
+  }
+  .reviews-list-item-Victoria {
+    display: flex;
+  }
+  .reviews-general {
+    width: 304px;
+  }
+  .reviews-list {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .reviews-list-item-John,
+  .reviews-list-item-Victoria,
+  .reviews-list-item-Ihor {
+    width: 336px;
+  }
+}
+/* ---------TABLET REVIEWS------------ */
+/* ---------DESKTOP 1280 REVIEWS-------------- */
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .reviews-title {
+    width: 854px;
+  }
+  .reviews-list-item-Ihor {
+    display: flex;
+  }
+  .reviews-list-item-John,
+  .reviews-list-item-Victoria,
+  .reviews-list-item-Ihor {
+    width: 376px;
+    padding: 32px 28px;
+  }
+  .reviews-list {
+    gap: 26px;
+  }
+  .reviews-general {
+    width: 320px;
+    
+  }
+}
+/* ---------DESKTOP 1280 REVIEWS-------------- */
+/* ---------DESKTOP 1440 REVIEWS-------------- */
+@media screen and (min-width: 1440px){
+.container {
+  max-width: 1440px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.reviews-list-item-John,
+  .reviews-list-item-Victoria,
+  .reviews-list-item-Ihor {
+    width: 392px;
+    padding: 32px 36px;
+  }
+  .reviews-list {
+    gap: 32px;
+    align-items: center;
+  }
+}
+/* ---------DESKTOP 1440 REVIEWS-------------- */
