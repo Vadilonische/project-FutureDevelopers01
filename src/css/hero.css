@@ -56,7 +56,7 @@
   margin-right: auto;
 }
 .hero-btn {
-  display: block;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
   color: #fbfbfb;
@@ -67,8 +67,8 @@
   border-radius: 15px;
   background: #1b414b;
   padding: 14px 32px;
-  width: 141px;
-  height: 46px;
+  /* width: 141px;
+  height: 46px; */
   border: 1px solid rgba(251, 251, 251, 0.35);
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -138,8 +138,8 @@
     line-height: 1.1; /* 19.8px */
     letter-spacing: -0.02em;
     padding: 16px 40px;
-    width: 179px;
-    height: 52px;
+    /* width: 179px;
+    height: 52px; */
   }
 }
 /* ================= /TABLET HERO STYLES ================= */
