@@ -173,6 +173,7 @@
   .reviews-list {
     gap: 32px;
     align-items: center;
+    justify-content: center;
   }
 }
 /* ---------DESKTOP 1440 REVIEWS-------------- */
