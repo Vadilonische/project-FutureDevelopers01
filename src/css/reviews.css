@@ -155,18 +155,15 @@
   }
   .reviews-general {
     max-width: 320px;
-    
   }
 }
 /* ---------DESKTOP 1280 REVIEWS-------------- */
 /* ---------DESKTOP 1440 REVIEWS-------------- */
-@media screen and (min-width: 1440px){
-.container {
-  max-width: 1440px;
-  padding-left: 100px;
-  padding-right: 100px;
-}
-.reviews-list-item-John,
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+  .reviews-list-item-John,
   .reviews-list-item-Victoria,
   .reviews-list-item-Ihor {
     width: 392px;
@@ -175,6 +172,7 @@
   .reviews-list {
     gap: 32px;
     align-items: center;
+    justify-content: center;
   }
 }
 /* ---------DESKTOP 1440 REVIEWS-------------- */
