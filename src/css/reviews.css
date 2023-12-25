@@ -8,7 +8,7 @@
 
 /* ---------MOBILE REVIEWS----------- */
 .reviews-title {
-  width: 335px;
+  max-width: 335px;
   color: #fbfbfb;
   text-align: center;
   font-family: Inter;
@@ -22,7 +22,7 @@
   margin-bottom: 24px;
 }
 .reviews-text {
-  width: 335px;
+  max-width: 335px;
   color: #fbfbfb;
   text-align: center;
   font-family: Inter;
@@ -39,8 +39,7 @@
 .reviews-list-item-Ihor {
   display: flex;
   background-color: #fbfbfb;
-  width: 335px;
-  height: 282px;
+  width: 100%;
   padding: 32px 8px;
   flex-direction: column;
   align-items: center;
@@ -68,7 +67,7 @@
 }
 .reviews-general {
   display: flex;
-  width: 303px;
+  max-width: 303px;
   flex-direction: column;
   align-items: center;
   gap: 8px;
@@ -102,11 +101,11 @@
   }
 
   .reviews-title {
-    width: 704px;
+    max-width: 704px;
     font-size: 48px;
   }
   .reviews-text {
-    width: 571px;
+    max-width: 571px;
     font-size: 14px;
     line-height: 1.28;
     margin-left: auto;
@@ -117,7 +116,7 @@
     display: flex;
   }
   .reviews-general {
-    width: 304px;
+    max-width: 304px;
   }
   .reviews-list {
     display: flex;
@@ -141,7 +140,7 @@
     padding-right: 50px;
   }
   .reviews-title {
-    width: 854px;
+    max-width: 854px;
   }
   .reviews-list-item-Ihor {
     display: flex;
@@ -156,7 +155,7 @@
     gap: 26px;
   }
   .reviews-general {
-    width: 320px;
+    max-width: 320px;
     
   }
 }
