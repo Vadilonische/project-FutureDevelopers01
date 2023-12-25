@@ -160,16 +160,16 @@
 /* Tablet 768px */
 
 @media screen and (min-width: 768px) {
-  .container {
+  /* .container {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
-  }
+  } */
 
-  .section {
+  /* .section {
     padding-top: 75px;
     padding-bottom: 75px;
-  }
+  } */
 
   .our-yachts-title {
     max-width: 645px;
@@ -227,10 +227,10 @@
 /* Desktop 1280px */
 
 @media screen and (min-width: 1280px) {
-  .container {
+  /* .container {
     max-width: 1280px;
     padding: 0 50px;
-  }
+  } */
 
   .our-yachts-title {
     max-width: 714px;
@@ -280,9 +280,9 @@
 /* Desktop 1440px */
 
 @media screen and (min-width: 1440px) {
-  .container {
+  /* .container {
     max-width: 1440px;
-  }
+  } */
 
   .our-yachts-menu {
     width: 1240px;
