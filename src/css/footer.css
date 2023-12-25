@@ -87,13 +87,13 @@
     height: 24px;
 }
 
-.footer-social-link {
+.social-link-icon {
     fill: #FBFBFB;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-link:focus,
-.footer-social-link:hover {
+.social-link-icon:focus,
+.social-link-icon:hover {
     opacity: 80%;
 }
 
