@@ -1,3 +1,9 @@
+.header {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+}
 
 .header-container {
     display: flex;
@@ -30,8 +36,6 @@
         display: none;
     }
     .header-div {
-        padding-top: 20px;
-        padding-bottom: 59px;
         max-width: 375px;
         padding-left: 20px;
         padding-right: 20px;
