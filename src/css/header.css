@@ -32,15 +32,20 @@
     .header-div {
         padding-top: 20px;
         padding-bottom: 59px;
+        max-width: 375px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: auto;
+        margin-right: auto;
     }
-    .container {
+    /* .container {
         min-width: 320px;
         max-width: 375px;
         padding-left: 20px;
         padding-right: 20px;
-    }
+    } */
     .header-container {
-        min-width: 280px;
+        
         height: 42px;
     }
     .header-social-link-list {
@@ -154,17 +159,22 @@
     .mobile-button-menu {
         display: none;
     }
-    .container {
+    /* .container {
         width: 768px;
         padding-left: 32px;
         padding-right: 32px;
-    }
+    } */
     .header-div {
         padding-top: 32px;
         padding-bottom: 59px;
+        width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .header-container {
-        width: 704px;
+        /* width: 704px; */
         height: 48px;
     }
     .logo-header {
@@ -229,15 +239,28 @@
 }
 /* desktop styles */
 @media screen and (min-width: 1280px) {
-    .container {
+    /* .container {
+        width: 1280px;
+        padding-left: 100px;
+        padding-right: 100px;
+    } */
+    .header-container {
+        /* width: 1080px; */
+    }
+    .logo-header {
+        margin-left: 30px;
+    }
+    .header-div {
         width: 1280px;
         padding-left: 100px;
         padding-right: 100px;
     }
-    .header-container {
-        width: 1080px;
-    }
-    .logo-header {
-        margin-left: 30px;
+}
+
+@media screen and (min-width: 1440px) {
+    .header-div {
+        width: 1440px;
+        padding-left: 100px;
+        padding-right: 100px;
     }
 }
