@@ -71,13 +71,22 @@
         height: 100%;
         display: flex;
         background-color: #0E1823;
-        transform: translateX(100%);
-        
+                
     }
 
     .mobile-modal.is-open {
         transform: translateX(0);
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .is-hidden {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    
+    .no-scroll {
+        overflow: hidden;
     }
 
     .mobile-modal-menu {
