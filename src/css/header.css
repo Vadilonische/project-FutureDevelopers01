@@ -1,6 +1,5 @@
 .header {
     position: absolute;
-    top: 20px;
     left: 0;
     right: 0;
 }
@@ -183,7 +182,6 @@
     } */
     .header-div {
         padding-top: 32px;
-        padding-bottom: 59px;
         width: 768px;
         padding-left: 32px;
         padding-right: 32px;
@@ -270,7 +268,5 @@
 @media screen and (min-width: 1440px) {
     .header-div {
         width: 1440px;
-        padding-left: 100px;
-        padding-right: 100px;
     }
 }
