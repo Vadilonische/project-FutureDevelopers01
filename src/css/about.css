@@ -4,9 +4,14 @@
 }
 
 .container-about {
+    max-width: 375px;
     display: flex;
     flex-direction: column;
     border-radius: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about-wrapper {
@@ -66,6 +71,13 @@
 /* ===========   TABLET STYLES ========== */
 
 @media screen  and (min-width: 768px) {
+    .container-about {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .about {
         padding-bottom: 75px;
     }
@@ -118,7 +130,13 @@
     .about-text-advantages {
         line-height: 1.15;
     }
-    
+    .container-about {
+        max-width: 1280px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
    }
 
 /* =========  /DESKTOP 1280 STYLES ======== */
@@ -135,7 +153,9 @@
     .container-about-text {
         max-width: 404px;
     }
-
+    .container-about {
+        max-width: 1440px;
+    }
 }
 
 /* =========  /DESKTOP 1440 STYLES ======== */
