@@ -3,6 +3,9 @@
     left: 0;
     right: 0;
 }
+.header-div {
+    padding-top: 16px;
+}
 
 .header-container {
     display: flex;
